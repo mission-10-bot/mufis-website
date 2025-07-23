@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mufis Website</title>
+  <title>My First Website</title>
   <style>
     body {
-      background-color: #f5f5f5;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
       font-family: Arial, sans-serif;
+      color: white;
       text-align: center;
-      padding: 50px;
+      padding-top: 50px;
     }
     h1 {
-      color: #007acc;
+      font-size: 3em;
+      margin-bottom: 20px;
     }
     p {
-      font-size: 18px;
+      font-size: 1.2em;
     }
-    a {
-      color: #ff6600;
-      text-decoration: none;
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 5px;
+      background: white;
+      color: #4facfe;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to Mufis Website!</h1>
-  <p>This is your first GitHub Pages site. 🎉</p>
-  <p>Edit your <code>index.html</code> file and push to see changes live!</p>
-  <a href="https://github.com/mission-10-bot/mufis-website">View on GitHub</a>
+  <h1>🎉 Welcome to My Website! 🎉</h1>
+  <p>This is my first GitHub Pages website.</p>
+  <button onclick="alert('Thanks for visiting!')">Click Me</button>
 </body>
 </html>
-
 
